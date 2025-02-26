@@ -1,0 +1,12 @@
+
+matrix1 <- matrix(1:20, nrow = 5, ncol = 4, byrow = TRUE)
+print("5x4 Matrix (filled by rows):")
+print(matrix1)
+
+matrix2 <- matrix(1:9, nrow = 3, ncol = 3, byrow = TRUE, dimnames = list(c("R1", "R2", "R3"), c("C1", "C2", "C3")))
+print("3x3 Matrix (filled by rows):")
+print(matrix2)
+
+matrix3 <- matrix(1:4, nrow = 2, ncol = 2, byrow = FALSE, dimnames = list(c("R1", "R2"), c("C1", "C2")))
+print("2x2 Matrix (filled by columns):")
+print(matrix3)
