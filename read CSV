@@ -1,0 +1,3 @@
+data <- read.csv("example.csv")
+
+print(data)
