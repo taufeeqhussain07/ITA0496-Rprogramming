@@ -1,0 +1,8 @@
+
+my_list <- list(
+  vector = c(1, 2, 3),
+  matrix = matrix(1:4, nrow = 2),
+  function_result = sum(1:5)
+)
+
+print(my_list)
